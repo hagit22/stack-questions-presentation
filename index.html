@@ -69,6 +69,19 @@
     .teacher-note ul { padding-right: 18px; }
     .teacher-note li { margin-bottom: 4px; }
 
+    .teacher-note::before {
+      content: "דגשים למורה";
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--blue);
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--teacher-border);
+      text-transform: uppercase;
+    }    
+
     /* ── TITLE SLIDE ── */
     .title-slide {
       background: var(--bg);
